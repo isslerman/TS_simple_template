@@ -1,0 +1,10 @@
+/node_modules/
+dist
+yarn-error.log
+globalConfig.json
+
+.env.*
+!.env.example
+build
+
+__tests__/coverage

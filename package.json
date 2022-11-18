@@ -1,0 +1,35 @@
+{
+  "name": "project_name",
+  "version": "0.1.0",
+  "description": "The Loop Project - Template project description",
+  "main": "src/app.ts",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "npx ts-node src/app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Marcos Issler <marcos@bosshouse.com.br>",
+  "license": "ISC"
+}
